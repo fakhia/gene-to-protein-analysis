@@ -1,0 +1,40 @@
+Key Tasks and Outputs:
+
+Sequence Retrieval & Translation
+
+Fetched Homo sapiens TRPV6 gene (RefSeq NM_018646.6) DNA and protein sequences using NCBI Entrez via BioPython.
+
+Verified sequence integrity and performed translation to amino acid sequence.
+
+Output: TRPV6 DNA (2906 bp) and protein (51 aa) sequences.
+
+Codon Usage Profiling & Visualization
+
+Computed codon frequency distribution and visualized codon usage trends using Matplotlib.
+
+Output: codon_usage_trpv6.csv, codon_usage_plot.png.
+
+Comparative Codon Usage Analysis (Human vs Mouse)
+
+Conducted cross-species codon usage comparison between Homo sapiens (NM_018646.6) and Mus musculus TRPV6 genes.
+
+Generated RSCU (Relative Synonymous Codon Usage) heatmaps to visualize evolutionary and translational patterns.
+
+Output: trpv6_codon_compare_human_mouse.csv, codon_freq_compare.png, rscu_compare.png.
+
+Codon Bias Metrics Calculation
+
+Computed gene-level metrics: GC3 (43.6%), Effective Number of Codons (ENC ≈ 21.7), and Codon Adaptation Index (CAI ≈ 0.75).
+
+Interpreted results in relation to TRPV6’s high translational efficiency and potential overexpression in cancer biology.
+
+Output: trpv6_codon_metrics_table.csv, trpv6_codon_summary_metrics.csv.
+
+Codon Bias vs. Protein Expression Correlation
+
+Analyzed the relationship between codon usage bias and protein expression efficiency in membrane transporters.
+
+Highlighted TRPV6’s codon optimization as a factor contributing to efficient expression and calcium ion channel function.
+
+Technical Skills:
+Python (BioPython, Matplotlib, NumPy, Pandas), NCBI Entrez, Comparative Genomics, Codon Usage Bias Analysis, Computational Biology, Data Visualization.
